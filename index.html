@@ -84,9 +84,10 @@
 									href="#" href="#">Наш успех</a></li>
 							<li class="menu__link"><a data-goto=".slider-body" class="menu__link-scroll" href="#"
 									href="#">Отзывы</a></li>
-							<li class="menu__link"><a data-goto=".form-block__for-scroll" class="menu__link-scroll" href="#"
-									href="#">Акция</a></li>
-							<li class="menu__link"><a data-goto="" class="menu__link-scroll" href="#" href="#">8
+							<li class="menu__link"><a data-goto=".form-block__for-scroll"
+									class="menu__link-scroll" href="#" href="#">Акция</a></li>
+							<li class="menu__link"><a data-goto="" class="menu__link-scroll modal-link"
+									href="#modal-window-callback">8
 									495 123-45-67</a></li>
 						</ul>
 					</nav>
@@ -104,7 +105,8 @@
 							Получи скидку 50%<br> на первый заказ
 						</p>
 						<div class="main-block__buttons ">
-							<a href="#" class="main-block__button _button">
+							<a href="#" data-goto=".form-block__for-scroll"
+								class="main-block__button _button menu__link-scroll">
 								<span>Получить</span>
 							</a>
 						</div>
@@ -383,7 +385,7 @@
 			</section>
 			<div class="page__form-block form-block">
 				<div class="form-block__container _container">
-					<form class="form-block__form-container" action="#" method="post"
+					<form class="form-block__form-container" id="form" action="#" method="post"
 						enctype="multipart/form-data">
 						<h2 class="form-block__for-scroll"></h2>
 						<div class="form-block__body">
@@ -391,18 +393,17 @@
 								<div class="form-input-items__input-item">
 									<label for="formName" class="form-input-item__input-label">Имя*</label>
 									<input id="formName" type="text" name="name"
-										class="form-input-item__input-input">
+										class="form-input-item__input-input _req">
 								</div>
 								<div class="form-input-items__input-item">
-									<label for="formPhone"
-										class="form-input-item__input-label">Телефон*</label>
+									<label for="formPhone" class="form-input-item__input-label">Телефон</label>
 									<input id="formPhone" type="tel" name="phone"
 										class="form-input-item__input-input">
 								</div>
 								<div class="form-input-items__input-item">
 									<label for="formEmail" class="form-input-item__input-label">Email*</label>
 									<input id="formEmail" type="email" name="email"
-										class="form-input-item__input-input">
+										class="form-input-item__input-input _req _email">
 								</div>
 							</div>
 							<div class="form-block__form-text-button form-text-button">
@@ -410,8 +411,8 @@
 									Отправь заявку и получи промокод на скидку в 50% на первый заказ в нашем
 									магазине
 								</p>
-								<button class="form-text-button__button _button">
-									<p>Отправить</p>
+								<button type="submit" class="form-text-button__button _button">
+									Отправить
 								</button>
 							</div>
 						</div>
@@ -480,10 +481,21 @@
 				</div>
 			</div>
 		</footer>
+		<div id="modal-window-callback" class="modal-window">
+			<a href="#header" class="modal-window__modal-area"></a>
+			<div class="modal-window__body">
+				<div class="modal-window__content">
+					<a href="#header" class="modal-window__close close-modal-window"><span></span><span></span></a>
+					<p>Проверка модального окна</p>
+				</div>
+			</div>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 		<script src="js/script.js"></script>
-		<script src="js/scriptmailconfig.js"></script>
-		<script src="js/scriptsliderconfig.js"></script>
+		<script src="js/mail-form.js"></script>
+		<script src="js/modal-window.js"></script>
+		<script src="js/swiper-slider.js"></script>
+		<script src="js/dropdown-menu.js"></script>
 	</div>
 </body>
 
