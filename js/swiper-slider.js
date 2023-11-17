@@ -14,12 +14,12 @@ new Swiper('.review-slider', {
 	// 	clickable: true,
 	// },
 
-	simulateTouch: true,
-	touchRatio: 1,
-	touchAngle: 90,
-	grabCursor: true,
+	// simulateTouch: true,
+	// touchRatio: 1,
+	// touchAngle: 90,
+	// grabCursor: true,
 
-	slideToClickedSlide: true,
+	// slideToClickedSlide: true,
 
 	// hashNavigation: {
 	// 	watchState: true,
@@ -34,9 +34,9 @@ new Swiper('.review-slider', {
 
 	// watchOverflow: true,
 
-	spaceBetween: 20,
+	// spaceBetween: 20,
 
-	slidesPrGroup: 3,
+	// slidesPrGroup: 3,
 
 	// centeredSlides: true,
 
@@ -47,17 +47,17 @@ new Swiper('.review-slider', {
 
 	// freeMode: true,
 
-	breakpoints: {
-		1366: {
-			slidesPerView: 3.2,
-		},
-		1024: {
-			slidesPerView: 2.2,
-		},
-		768: {
-			slidesPerView: 1.2,
-		},
-	}
+	// breakpoints: {
+	// 	1366: {
+	// 		slidesPerView: 3.2,
+	// 	},
+	// 	1024: {
+	// 		slidesPerView: 2.2,
+	// 	},
+	// 	768: {
+	// 		slidesPerView: 1.2,
+	// 	},
+	// }
 });
 
 /************************************************************************ Slider - Swiper **************************************************************************************/

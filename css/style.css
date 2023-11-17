@@ -154,6 +154,7 @@ body._lock {
 }
 .header__logo {
   margin: 0px 200px 0px 0px;
+  flex: 0 1 auto;
 }
 .header__logo img {
   width: 81.5px;
@@ -1222,7 +1223,7 @@ html textarea {
   visibility: hidden;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: all 0.8s ease 0s;
+  transition: all 0.1s ease 0s;
   background-color: rgba(0, 0, 0, 0.748);
 }
 .modal-window._open {
@@ -1261,10 +1262,10 @@ html textarea {
 .modal-window__close {
   display: block;
   position: absolute;
-  top: 20px;
-  right: 10px;
-  width: 20px;
-  height: 2px;
+  top: 40px;
+  right: 15px;
+  width: 40px;
+  height: 3px;
   cursor: pointer;
   z-index: 10;
 }
@@ -1282,6 +1283,10 @@ html textarea {
 }
 .modal-window__close span:last-child {
   transform: rotate(45deg);
+}
+.modal-window__block {
+  left: 0;
+  padding: 50px 10px 10px;
 }
 
 /*************************************************************************************************************************************************************************************************/
@@ -1454,3 +1459,11 @@ html textarea {
 }
 /*******************************************************************************************************************************************/
 /**</FOOTER>********************************************************************************************************************************************/
+.scroll__arrow {
+  color: wheat;
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  top: 50%;
+  left: 5px;
+}

@@ -63,8 +63,8 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container _container">
-				<a data-goto=".main-block" href="#" class="header__logo"><img src="img/icons/CoolDogLogo.png"
-						alt="Logo not found :("></a>
+				<a href="#main-block" data-goto=".main-block" class="header__logo menu__link-scroll"><img
+						src="img/icons/CoolDogLogo.png" alt="Logo not found :("></a>
 				<div class="header__menu menu">
 					<div class="menu__icon icon__menu">
 						<span></span>
@@ -92,10 +92,13 @@
 						</ul>
 					</nav>
 				</div>
+				<a data-goto=".main-block" class="scroll__arrow menu__link-scroll" href="#main-block">
+					<p>Тут типо стрелка вверх</p>
+				</a>
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__main-block main-block">
+			<section class="page__main-block main-block" id="main-block">
 				<div class="main-block__container _container">
 					<div class="main-block__body">
 						<h1 class="main-block__title">
@@ -486,7 +489,9 @@
 			<div class="modal-window__body">
 				<div class="modal-window__content">
 					<a href="#header" class="modal-window__close close-modal-window"><span></span><span></span></a>
-					<p>Проверка модального окна</p>
+					<div class="modal-window__block">
+						<p>Проверка модального окна</p>
+					</div>
 				</div>
 			</div>
 		</div>
