@@ -1117,7 +1117,6 @@ html textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 400px;
   padding: 0px 30px;
 }
 .form-text-button__text {
@@ -1125,6 +1124,7 @@ html textarea {
   font-weight: 400;
   color: white;
   margin: 0px 0px 50px 0px;
+  max-width: 350px;
 }
 .form-text-button__button {
   max-width: 250px;
@@ -1407,7 +1407,7 @@ html textarea {
     width: 100%;
     height: 100%;
     top: 180px;
-    left: 0;
+    left: 10px;
   }
 }
 @media (max-width: 380px) {

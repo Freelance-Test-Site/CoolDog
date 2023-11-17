@@ -21,31 +21,31 @@ new Swiper('.review-slider', {
 
 	slideToClickedSlide: true,
 
-	hashNavigation: {
-		watchState: true,
-	},
+	// hashNavigation: {
+	// 	watchState: true,
+	// },
 
-	keyboard: {
-		enable: true,
-		onlyInViewport: true,
-		pageUpDown: true,
-	},
-	autoHeight: true,
+	// keyboard: {
+	// 	enable: true,
+	// 	onlyInViewport: true,
+	// 	pageUpDown: true,
+	// },
+	// autoHeight: true,
 
-	watchOverflow: true,
+	// watchOverflow: true,
 
 	spaceBetween: 20,
 
-	// slidesPrGroup: 3,
+	slidesPrGroup: 3,
 
-	centeredSlides: true,
+	// centeredSlides: true,
 
-	initialSlide: 1,
+	// initialSlide: 1,
 
 	// loop: true,
 	// loopedSlides: 2,
 
-	freeMode: true,
+	// freeMode: true,
 
 	breakpoints: {
 		1366: {
