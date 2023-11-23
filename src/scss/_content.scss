@@ -597,70 +597,53 @@
 /***<Content-5>****************************************************************************************************************/
 .slider-body {
 	&__container {
-		display: flex;
-		flex-direction: column;
-		justify-content: start;
-		min-width: 0;
-		// max-width: 400px;
 	}
 }
 .review-slider {
-	padding: 50px 0px 150px 0px;
+	padding:  50px 0px 20px 0px;
+	&__title {
+	}
+
 	&__wrapper {
-		display: flex;
-		min-width: 0;
-		@include fontz(1rem, 400, #fff);
-		line-height: 150%;
-		letter-spacing: 0.1px;
 	}
 
 	&__slide {
-		display: flex;
-		min-width: 390px;
-		max-height: 200px;
-		background-color: #171717;
-		border-radius: 20px;
-		padding: 20px;
 	}
 
 	&__review-item {
 		display: flex;
-		max-height: 230px;
-		overflow: auto;
 	}
 }
 .swiper-container {
-	// position: relative;
 }
 .swiper-wrapper {
 }
 .swiper-slide {
-	align-items: center;
 }
 .review-item {
 	&__block {
-		display: flex;
-		flex-direction: column;
-		margin: 0px 15px 0px 0px;
+		margin: 0px 20px 0px 0px;
 	}
 
 	&__image {
-		max-width: 100px;
-		max-height: 100px;
 		margin: 0px 0px 10px 0px;
 	}
 
 	&__name {
-		@include fontz(1rem, 400, #fff);
+		@include fontz(1em, 400, #fff);
+		line-height: 130%;
+		letter-spacing: 0.2px;
 	}
 
 	&__text {
-		max-height: 100%;
-		max-height: 200px;
+		@include fontz(1rem, 400, #fff);
+		line-height: 130%;
+		letter-spacing: 1px;
 	}
 }
 .swiper-scroll {
 }
+
 /*...Display-adapt......................................................................................................................................*/
 
 /*....</Display-adapt>.....................................................................................................................................*/

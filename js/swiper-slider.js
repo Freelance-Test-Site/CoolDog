@@ -1,4 +1,3 @@
-"use strict"
 
 /************************************************************************ Slider - Swiper **************************************************************************************/
 
@@ -14,12 +13,12 @@ new Swiper('.review-slider', {
 	// 	clickable: true,
 	// },
 
-	// simulateTouch: true,
-	// touchRatio: 1,
-	// touchAngle: 90,
-	// grabCursor: true,
+	simulateTouch: true,
+	touchRatio: 1,
+	touchAngle: 90,
+	grabCursor: true,
 
-	// slideToClickedSlide: true,
+	slideToClickedSlide: true,
 
 	// hashNavigation: {
 	// 	watchState: true,
@@ -34,30 +33,30 @@ new Swiper('.review-slider', {
 
 	// watchOverflow: true,
 
-	// spaceBetween: 20,
+	spaceBetween: 30,
 
-	// slidesPrGroup: 3,
+	slidesPrGroup: 3,
 
-	// centeredSlides: true,
+	centeredSlides: true,
 
-	// initialSlide: 1,
+	initialSlide: 1,
 
 	// loop: true,
-	// loopedSlides: 2,
+	// loopedSlides: 6,
 
-	// freeMode: true,
+	freeMode: true,
 
-	// breakpoints: {
-	// 	1366: {
-	// 		slidesPerView: 3.2,
-	// 	},
-	// 	1024: {
-	// 		slidesPerView: 2.2,
-	// 	},
-	// 	768: {
-	// 		slidesPerView: 1.2,
-	// 	},
-	// }
+	breakpoints: {
+		1366: {
+			slidesPerView: 3.2,
+		},
+		1024: {
+			slidesPerView: 2.2,
+		},
+		768: {
+			slidesPerView: 1.2,
+		},
+	}
 });
 
 /************************************************************************ Slider - Swiper **************************************************************************************/

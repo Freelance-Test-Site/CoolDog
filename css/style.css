@@ -152,11 +152,16 @@ body._lock {
   justify-content: space-between;
   min-height: 70px;
 }
-.header__logo {
-  margin: 0px 200px 0px 0px;
+.header__logo-scroll {
+  display: block;
+  width: 81.5px;
+  height: 50px;
+  position: relative;
+  left: -110px;
+  z-index: 700;
   flex: 0 1 auto;
 }
-.header__logo img {
+.header__logo-icon {
   width: 81.5px;
   height: 50px;
 }
@@ -983,61 +988,32 @@ html textarea {
 /*....</
 
 /***<Content-5>****************************************************************************************************************/
-.slider-body__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  min-width: 0;
-}
-
 .review-slider {
-  padding: 50px 0px 150px 0px;
-}
-.review-slider__wrapper {
-  display: flex;
-  min-width: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #fff;
-  line-height: 150%;
-  letter-spacing: 0.1px;
-}
-.review-slider__slide {
-  display: flex;
-  min-width: 390px;
-  max-height: 200px;
-  background-color: #171717;
-  border-radius: 20px;
-  padding: 20px;
+  padding: 50px 0px 20px 0px;
 }
 .review-slider__review-item {
   display: flex;
-  max-height: 230px;
-  overflow: auto;
-}
-
-.swiper-slide {
-  align-items: center;
 }
 
 .review-item__block {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 15px 0px 0px;
+  margin: 0px 20px 0px 0px;
 }
 .review-item__image {
-  max-width: 100px;
-  max-height: 100px;
   margin: 0px 0px 10px 0px;
 }
 .review-item__name {
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+  line-height: 130%;
+  letter-spacing: 0.2px;
+}
+.review-item__text {
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
-}
-.review-item__text {
-  max-height: 100%;
-  max-height: 200px;
+  line-height: 130%;
+  letter-spacing: 1px;
 }
 
 /*...Display-adapt......................................................................................................................................*/
